@@ -5,7 +5,7 @@ squares.forEach(square => {
 	square.addEventListener("mouseover", () => {
 		squares.forEach(item => {
 			if(item !== square){
-				item.style.backgroundColor = "brown"	
+				item.style.backgroundColor = "#6F4E37"	
 			}
 		})
 	})
